@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,800;1,800&display=swap');
+
+:root {
+    --card-color: #f5dee0;
+    --font-color: #0D160B;
+    --major-color: #D15253;
+    --contrast-color: #DE534B;
+    --background-color: #D0F1BF;
+    --font-titles: 'Lobster Two', cursive;
+    --font-principal:'Gelasio', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: var(--font-principal);
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.box-header{
+    display: flex;
+    justify-content: center;
+}
+
+/*NAV - TOP*/
+
+.box-nav{
+    position:sticky;
+    background-color: var(--major-color);
+    border-top: 1px solid var(--contrast-color);
+}
+
+.listinha{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
