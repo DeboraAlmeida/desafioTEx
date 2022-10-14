@@ -1,6 +1,9 @@
 # desafioTEx
 
 ## Praticando HTML5 e CSS3
+<br>
+
+![Logo do projeto](/images/logoMyPets.png)
 
 <br>
 
