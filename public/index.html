@@ -11,55 +11,85 @@
 <body>
     <header>
         <div class="box-header">
-            <img src="../images/logoMyPets.png" alt="My Pets">
+            <div class="box-img">
+                <img src="../images/logoMyPets.png" alt="My Pets">
+            </div>
         </div>
     </header>
     <nav class="box-nav">
         <ul class="listinha">
-            <li>Sobre</li>
-            <li>Doguinhos</li>
-            <li>Gatinhos</li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#doguinhos">Doguinhos</a></li>
+            <li><a href="#gatinhos">Gatinhos</a></li>
         </ul>
     </nav>
-    <div>
-        <secton>
-            <article id="doguinhos" class="box-pets">
-                <div class="card-pets">
-                    <h2>Luke Maurício</h2>
-                    <img src="../images/Luke001.jpeg" alt="Cachorro labrador champagne">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
-                </div>
-                <div class="card-pets">
-                    <h2>Enzossauro</h2>
-                    <img src="../images/Luke002.jpeg" alt="Cachorro vira-lata sorridente">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique
-                    nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni
-                    perferendis tempore natus dolorem. Harum similique in ex.</p>                
-                </div>
-
-            </article>
-            <article id="gatinhos" class="box-pets">
-                <div class="card-pets">
-                    <h2>Mingau e Oliver</h2>
-                    <img src="../images/Mingau_Oliver.jpeg" alt="Gatos no muro">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique
-                    nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni
-                    perferendis tempore natus dolorem. Harum similique in ex.</p>
+        <main>
+            <secton class="main-content">
+                <article class="apresentacao">
+                    <h1 class="title">My Pets</h1>
+                    <p class="info">Bem vindo! Venha conhecer um pouco sobre os bichinhos que fazem parte da minha família!<br><br>
+                    Nós amamos animais e reconhecemos o amor deles também, independente da forma como demonstrem. Com eles a vida fica muito mais incrível!</p>
+                    <div id="sobre" class="sobre">
+                        <p class="pet-info">Nossos pets foram todos resgatados da rua ou acolhidos quando apareceram do nada na nossa casa precisando de um lar. Hoje temos ao todo 10 animais. O custo é elevado, eles dão muito trabalho, precisam de atenção e cuidados, mas a recompensa é muito maior que qualquer desses desgastes. Quando percebomos o imenso carinho e confiança que eles tem com a gente, entendemos que realmente viramos uma família!<br> </p>
                     </div>
-                
-                </div>
-                <div class="card-pets">
-                    <h2>Cito</h2>
-                    <img src="../images/Cito001.jpeg" alt="Gatinho preto">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique
-                    nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni
-                    perferendis tempore natus dolorem. Harum similique in ex.</p>
+                </article>
+                <article id="doguinhos" class="box-principal">
+                    <h2 class="titulo">Meus doguinhos sorridentes</h2>
+                    <p class="pet-info">Conheça Luke e Enzo, os 2 cachorros mais incríveis desse mundo! Eles foram encontrados na rua e hoje são a alegria da casa. Muito animados e carinhosos, fazem festa sempre que alguém chega em casa e sempre querem estar pertinho da família. Amam passear na orla da praia e assistir filme na Netflix!</p>
+                    <div class="box-pets">
+                        <h2 class="petName">Luke Maurício</h2>
+                        <div class="card-pets">
+                            <div class="pet-pic LukeM">
+                            </div>
+                            <div class="pet-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis, laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                            </div>
+                        </div>
                     </div>
-                
-                </div>
-            </article>
-        </secton>
-    </div>
+                    <div class="box-pets">
+                        <h2 class="petName">Enzossauro</h2>
+                        <div class="card-pets">
+                            <div class="pet-pic EnzoS">
+                            </div>
+                            <div class="pet-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta
+                                    at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis,
+                                    laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="gatinhos" class="box-principal">
+                    <h2 class="titulo">Meus gatinhos tão fofinhos</h2>
+                    <p class="pet-info">Conheça alguns dos gatinhos da família. Aqui temos informação somente sobre Mingau, Oliver e Cito, mas são 8 no total, todos resgatados ou acolhidos quando decidiram sair das ruas a arranjar um lar amoroso! Cada um tem a sua personalidade muito única e marcante, mas todos são carinhosos e amáveis.
+                        </p>
+                    <div class="box-pets">
+                        <h2 class="petName">Mingau e Oliver</h2>
+                        <div class="card-pets">
+                            <div class="pet-pic MingoOliv">
+                            </div>
+                            <div class="pet-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta
+                                    at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis,
+                                    laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-pets">
+                        <h2 class="petName">Cito</h2>
+                        <div class="card-pets">
+                            <div class="pet-pic Cito">
+                            </div>
+                            <div class="pet-info">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minima necessitatibus eos porro ea, soluta
+                                    at similique nostrum fuga aperiam ab deleniti nesciunt distinctio, dicta asperiores eligendi debitis,
+                                    laborum odio modi magni perferendis tempore natus dolorem. Harum similique in ex.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </secton>
+        </main>
     <footer>
         <div class="box-footer">
             <div class="box-menu">
@@ -72,8 +102,10 @@
                     </ul>
                 </nav>
             </div>
-            <p>Adote um bichinho. A vida é mais bonita com eles!</p>
-            <p>Acompanhe nossas aventuras e entre em contato:</p>
+            <div>
+                <p>Adote um bichinho. A vida é mais bonita com eles!</p>
+                <p>Acompanhe nossas aventuras e entre em contato:</p>
+            </div>
             <div class="box-icons">
                 <ul class="listinha">
                     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>

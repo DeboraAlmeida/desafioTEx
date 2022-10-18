@@ -26,16 +26,168 @@
     justify-content: center;
 }
 
+.box-img{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.box-img img{
+    width: 40%;
+}
+
 /*NAV - TOP*/
 
 .box-nav{
     position:sticky;
+    top:0;
     background-color: var(--major-color);
     border-top: 1px solid var(--contrast-color);
 }
 
 .listinha{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
+}
+
+.listinha li{
+    padding: 1%;
+}
+
+.listinha a, .listinha2 a{
+    color: var(--card-color);
+    font-size: 1.1rem;
+
+}
+
+.listinha a:hover,
+.listinha2 a:hover {
+    color: var(--font-color);
+}
+
+/*CONTEÚDO*/
+
+.apresentacao{
+    width: 90%;
+    margin: 2rem;
+    padding: 1rem 1rem 0 1rem;
+    text-align:center
+}
+
+.title{
+    font-family: var(--font-titles);
+    font-size: 3rem;
+    text-decoration: underline;
+    color: var(--major-color);
+
+}
+
+.info{
+    margin: auto;
+    padding: 1rem;
+    font-size:1.2rem;
+}
+
+.box-principal{
+    margin: 3rem auto;
+    width: 90%;
+   margin-bottom: 5rem;
+    /* border: 1px solid var(--major-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999; */
+}
+
+.titulo{
+    font-family: var(--font-titles);
+    font-size: 2.5rem;
+    color: var(--major-color);
+}
+
+.sobre{
+    margin: 2rem auto;
+    padding:1rem;
+    width:90%;
+    border: 1px solid var(--major-color);
+    border-radius: 10px;
+}
+
+/*CARDS*/
+
+.petName{
+    width: 90%;
+    padding: 2% 2% 1% 2%;
+    margin: 2%;
+    font-family: var(--font-titles);
+    font-size: 3rem;
+    color: var(--major-color);
+    border-bottom: 0.9px solid var(--major-color);
+
+}
+
+.box-pets{
+    margin: 2rem auto;
+    width: 80%;
+    border: 1px solid var(--major-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.card-pets{
+    /* width: 90%; */
+    padding: 1rem 2rem 2rem 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.pet-pic {
+    margin: auto;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    border: 1px solid var(--major-color);
+} 
+
+.pet-info{
+    margin: auto;
+    padding: 1rem 3rem 1rem 1rem;
+    text-align: justify;
+}
+
+/*FOTOS DOS PETS*/
+.LukeM{
+    background-image: url(../../images/Luke001.jpeg);
+    background-size: cover;
+    background-position: 0 -50px;
+}
+
+.EnzoS{
+    background-image: url(../../images/Enzo001.jpeg);
+    background-size: cover;
+    background-position:-110px;
+    
+}
+
+.MingoOliv{
+    background-image: url(../../images/Mingau_Oliver.jpeg);
+    background-size: cover;
+    background-position: -60px;
+
+}
+.Cito{
+    background-image: url(../../images/Cito001.jpeg);
+    background-size: cover;
+}
+
+/*FOOTER*/
+
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D15253;
+}
+.footer-of-footer{
+    text-align: center;
+    background-color: #DE534B;
 }
