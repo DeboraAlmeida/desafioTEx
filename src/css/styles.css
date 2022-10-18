@@ -134,8 +134,7 @@
 }
 
 .card-pets{
-    /* width: 90%; */
-    padding: 1rem 2rem 2rem 1rem;
+    padding: 1rem 2rem 2rem 2rem;
     margin: auto;
     display: grid;
     grid-template-columns: 35% 65%;
@@ -185,9 +184,32 @@
 .box-footer{
     display: flex;
     justify-content: space-around;
+    padding: 1rem;
     background-color: #D15253;
 }
 .footer-of-footer{
     text-align: center;
     background-color: #DE534B;
+}
+
+.listinha2{
+    list-style: none;
+    padding: 0.6rem;;
+}
+
+
+@media (max-width: 790px){
+    .box-pets{
+        width: 95%;
+        padding:0.8rem; 
+    }
+    .pet-info{
+        padding:1rem 0.5rem;
+    }
+    .card-pets{
+        grid-template-columns: 100%;
+    }
+    .box-menu{
+        display:none;
+    }
 }
