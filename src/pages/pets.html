@@ -1,0 +1,96 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/pets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/src/js/script.js" async></script>
+    <title>My Pets</title>
+</head>
+<body>
+    <header>
+        <div class="box-header">
+            <div class="box-img">
+                <img src="/images/logoMyPets.png" alt="My Pets">
+            </div>
+        </div>
+    </header>
+    <nav class="box-nav">
+        <ul class="listinha">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#doguinhos">Doguinhos</a></li>
+            <li><a href="#gatinhos">Gatinhos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="title center-text">Controle de Vacinação dos Pets</h2>
+        <form action="#" method="get" class="pretty-form">
+            <fieldset>
+                <legend class="center-text">Dados do pet</legend>
+                <div class="box-grid">
+                    <div class="mini-box">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div class="mini-box">
+                        <label for="ultima">Data da última vacina</label>
+                        <input type="date" name="ultima" id="ultima">
+                    </div>
+                    <button type="button" id="btn-add" class="btn">Adicionar</button>
+                </div>                    
+            </fieldset>
+        </form>
+        <div class="tabela">
+            <div class="box-row first-row">
+                <div class="col">
+                    <label for="">Nome</label>
+                </div>
+                <div class="col">
+                    <label for="">Última Vacina</label>
+                </div>
+                <div class="col">
+                    <label for="">Próxima Vacina</label>
+                </div>
+            </div>
+            <div class="box-row pet-0">
+                <div class="col pet-nome">
+                    <span></span>
+                </div>
+                <div class="col pet-ultima">
+                    <span></span>
+                </div>
+                <div class="col pet-proxima">
+                    <span></span>
+                </div>
+            </div>
+            <div class="box-row pet-1">
+                <div class="col pet-nome">
+                    <span></span>
+                </div>
+                <div class="col pet-ultima">
+                    <span></span>
+                </div>
+                <div class="col pet-proxima">
+                    <span></span>
+                </div>
+            </div>
+            <div class="box-row pet-2">
+                <div class="col pet-nome">
+                    <span></span>
+                </div>
+                <div class="col pet-ultima">
+                    <span></span>
+                </div>
+                <div class="col pet-proxima">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <button id="addPet" class="btn">Novo Pet</button>
+    </main>
+    
+</body>
+</html>
