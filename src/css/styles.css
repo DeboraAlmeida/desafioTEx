@@ -55,7 +55,7 @@
     padding: 1%;
 }
 
-.listinha a, .listinha2 a{
+.listinha a, .listinha2 a, .otherLink{
     color: var(--card-color);
     font-size: 1.1rem;
 
